@@ -1,6 +1,25 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-function Footer() {
+export default class Footer extends Component {
+    constructor() {
+        super()
+
+        this.state = {
+            footer: "my footer"
+        }
+    }
+
+    render() {        
+        return (
+            <footer>
+                <h3>This is: {this.state.footer} </h3>
+            </footer>
+        )
+    }
+}
+
+
+/*function Footer() {
 let date = new Date()
 
     return (
@@ -11,4 +30,4 @@ let date = new Date()
 }
 
 
-export default Footer
+export default Footer*/
