@@ -21,12 +21,13 @@ Use one of the libraries to render some JSX to the page*/
 
 
 function NavBar() {
+  
   return (
-    <div className="topnav">
-        <a className="active" href="#home">Home</a>
-        <a className="active" href="#projects">Projects</a>
-        <a className="active" href="#aboutMe">About me</a>
-        <a className="active" href="#contact">Contact</a>
+    <div className='topnav'>
+        <a className='active' href='#home'>Home</a>
+        <a href='#projects'>Projects</a>
+        <a href='#aboutMe'>About me</a>
+        <a href='#contact'>Contact</a>
     </div>
   )
 }
